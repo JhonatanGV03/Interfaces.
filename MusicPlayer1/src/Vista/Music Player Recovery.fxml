@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="441.0" fitWidth="714.0" focusTraversable="true" layoutX="-57.0" layoutY="-1.0" opacity="0.94" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/wallhaven-433953_1600x900.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="75.0" fitWidth="69.0" layoutX="266.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/music_96px.png" />
+         </image>
+      </ImageView>
+      <Pane blendMode="ADD" layoutX="36.0" layoutY="102.0" prefHeight="278.0" prefWidth="528.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label graphicTextGap="0.0" layoutX="168.0" layoutY="-1.0" text="Recuperar contraseña" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="131.0" text="Username:" textFill="WHITE" />
+            <Label layoutX="42.0" layoutY="165.0" text="Email:" textFill="WHITE" />
+            <TextField layoutX="78.0" layoutY="127.0" prefHeight="25.0" prefWidth="388.0" promptText="Username" />
+            <TextField layoutX="78.0" layoutY="161.0" prefHeight="25.0" prefWidth="388.0" promptText="Email" />
+            <Button layoutX="215.0" layoutY="208.0" mnemonicParsing="false" text="Enviar solicitud" />
+            <Label layoutX="20.0" layoutY="52.0" text="En este apartado puedes iniciar la recuperación de tu cuenta de Music player,te recordamos " textFill="WHITE" />
+            <Label layoutX="13.0" layoutY="69.0" text="que no debes compartir tu contraseña con ninguna persona para evitarel robo o la suspensión" textFill="WHITE" />
+            <Label layoutX="229.0" layoutY="86.0" text="de tu cuenta." textFill="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="712.0" focusTraversable="true" layoutX="-47.0" opacity="0.97" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/wallhaven-433953_1600x900.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="263.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/music_96px.png" />
+         </image>
+      </ImageView>
+      <Pane blendMode="ADD" layoutX="36.0" layoutY="102.0" prefHeight="278.0" prefWidth="528.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label graphicTextGap="0.0" layoutX="179.0" layoutY="-1.0" text="Registro de usuario" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="14.0" layoutY="48.0" text="Username:" textFill="WHITE" />
+            <Label layoutX="35.0" layoutY="79.0" text="Email:" textFill="WHITE" />
+            <PasswordField layoutX="78.0" layoutY="108.0" prefHeight="25.0" prefWidth="388.0" promptText="Password" />
+            <Label layoutX="15.0" layoutY="112.0" text="Password:" textFill="WHITE" />
+            <Label layoutX="14.0" layoutY="134.0" text="Repeat" textFill="WHITE" />
+            <Label layoutX="15.0" layoutY="150.0" text="Password:" textFill="WHITE" />
+            <PasswordField layoutX="78.0" layoutY="142.0" prefHeight="25.0" prefWidth="388.0" promptText="Password" />
+            <TextField layoutX="78.0" layoutY="44.0" prefHeight="25.0" prefWidth="388.0" promptText="Username" />
+            <TextField layoutX="78.0" layoutY="75.0" prefHeight="25.0" prefWidth="388.0" promptText="Email" />
+            <CheckBox layoutX="60.0" layoutY="174.0" mnemonicParsing="false" text="Acepto términos y condiciones, la política de privacidad y cookies" textFill="WHITE" />
+            <CheckBox layoutX="60.0" layoutY="197.0" mnemonicParsing="false" text="¡Quiero conocer todas las novedades y noticias de Music player!" textFill="WHITE" />
+            <Button layoutX="223.0" layoutY="239.0" mnemonicParsing="false" text="¡Registrarse!" />
+         </children>
+      </Pane>
+   </children>
+</Pane>

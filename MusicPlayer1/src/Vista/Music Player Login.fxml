@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="396.0" prefWidth="679.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="419.0" fitWidth="710.0" focusTraversable="true" layoutX="-15.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/wallhaven-433953_1600x900.png" />
+         </image>
+      </ImageView>
+      <Pane blendMode="ADD" layoutX="36.0" layoutY="97.0" prefHeight="278.0" prefWidth="528.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <children>
+            <Label graphicTextGap="0.0" layoutX="27.0" layoutY="-1.0" text="Iniciar Sesión en Music Player" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label blendMode="DARKEN" layoutX="-28.0" layoutY="66.0" text="Username:" textFill="WHITE">
+               <padding>
+                  <Insets left="3.0" />
+               </padding>
+               <font>
+                  <Font name="Arial" size="12.0" />
+               </font></Label>
+            <TextField layoutX="31.0" layoutY="62.0" prefHeight="25.0" prefWidth="250.0" promptText="Username" />
+            <TextField layoutX="31.0" layoutY="94.0" prefHeight="25.0" prefWidth="250.0" promptText="Password" />
+            <Button layoutX="118.0" layoutY="176.0" mnemonicParsing="false" text="Iniciar Sesión" />
+            <TextField layoutX="31.0" layoutY="125.0" prefHeight="25.0" prefWidth="250.0" promptText="Password" />
+            <Label layoutX="-16.0" layoutY="131.0" text="check:" textFill="WHITE" />
+            <Label layoutX="-25.0" layoutY="120.0" text="Password" textFill="WHITE" />
+            <CheckBox layoutX="-10.0" layoutY="149.0" mnemonicParsing="false" text="Recordar contraseña" textFill="WHITE" />
+            <Hyperlink layoutX="156.0" layoutY="146.0" text="¿Olvidó su contraseña?" />
+            <Pane layoutX="362.0" layoutY="24.0" prefHeight="190.0" prefWidth="271.0">
+               <children>
+                  <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="-13.0" layoutY="49.0">
+                     <image>
+                        <Image url="@../imgs/icons8-google-90.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="93.0" fitWidth="93.0" layoutX="89.0" layoutY="49.0">
+                     <image>
+                        <Image url="@../imgs/icons8-facebook-90.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="85.0" fitWidth="85.0" layoutX="186.0" layoutY="53.0">
+                     <image>
+                        <Image url="@../imgs/icons8-twitter-90.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </Pane>
+            <Label layoutX="422.0" layoutY="-2.0" text="Inicia Sesión con:" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane layoutX="11.0" layoutY="284.0" prefHeight="112.0" prefWidth="658.0">
+         <children>
+            <Label graphicTextGap="0.0" layoutX="133.0" layoutY="23.0" text="¿Aún no haces parte de nuestra comunidad?" textFill="WHITE">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button layoutX="248.0" layoutY="56.0" mnemonicParsing="false" text="¡Regístrate aquí!">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Label layoutX="323.0" layoutY="14.0" text="or" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Label layoutX="8.0" layoutY="198.0" text="Password:" textFill="WHITE" />
+      <ImageView fitHeight="75.0" fitWidth="69.0" layoutX="316.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../imgs/music_96px.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

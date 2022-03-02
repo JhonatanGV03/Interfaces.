@@ -9,4 +9,4 @@ Integrantes:
  
 Proyecto PF1S3 Contiene el Splash (Se puede correr)
 
-Proyecto Music Player contiene 3 interfaces  - Login - Recovery - Register (FXML, NO SE PUEDE CORRER(Visualizar en constructor))
+Proyecto MusicPlayer1 contiene 3 interfaces  - Login - Recovery - Register (FXML, NO SE PUEDE CORRER(Visualizar en constructor))

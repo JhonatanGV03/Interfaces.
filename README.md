@@ -4,7 +4,7 @@ Trabajo de Interfaces/Programacion2/Grupo01D
 Integrantes:
 -  Braiann Salinas Mendoza
 -  Yhonatan Steven Gomez Valencia
--  Julian Cruz
+-  Julian David Cruz Cancimance
 
  
 Proyecto PF1S3 Contiene el Splash (Se puede correr)
